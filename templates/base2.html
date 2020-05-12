@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <title>{{title}}</title>
+</head>
+    <style>
+       h4 {
+        color: gray; /* Цвет текста */
+        padding: 2px; /* Поля вокруг текста */
+       }
+    </style>
+  <body>
+    <header>
+      <nav class="navbar navbar-light bg-light">
+          <h1>К сожалению по вашему запросу ничего не найдено</h1>
+        <a class="navbar-brand" href="#">Mars One</a>
+      </nav>
+        <h3 align="center">Актуальных новостей на сегодняшний день нет</h3>
+    </header>
+    <!-- Begin page content -->
+    <main role="main" class="container">
+        {% block content %}{% endblock %}
+    </main>
+  </body>
+</html>
